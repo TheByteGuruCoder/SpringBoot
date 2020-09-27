@@ -1,0 +1,51 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+legend{
+    font-size: 150%;
+}
+a{
+    margin: 10%;
+}
+form {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    width: 300px;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input {
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+.account-info {
+    padding: 20px 20px 0 20px;
+}
+.account-info label {
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.account-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.add-book{
+    margin-top: 15px;
+    text-align: center;
+}
+button{
+    margin-top: 8px;
+}
+legend{
+    font-size: 150%;
+}
+a{
+    margin: 10%;
+}

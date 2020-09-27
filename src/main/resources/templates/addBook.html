@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/addBook.css">
+</head>
+<body>
+<div class="add-book">
+    <fieldset>
+        <legend> Add Book </legend>
+        <br/>
+            <form action="#" th:action="@{/addBook}" th:object="${book}" method="post">
+                <label for="bookTitle">Book Title</label>
+                <input type="text" th:field="*{bookTitle}" id="bookTitle" placeholder="Book Title">
+                <label for="bookAuthor">Book Author</label>
+                <input type="text" th:field="*{bookAuthor}" id="bookAuthor" placeholder="Book Author">
+                <label for="price">Book Price</label>
+                <input type="number" th:field="*{price}" id="price" placeholder="Enter the Price">
+                <br/>
+                <button type="submit">Add book</button>
+
+            </form>
+    </fieldset>
+<a href="/allBooks">All Books</a>
+
+</body>
+</html>
